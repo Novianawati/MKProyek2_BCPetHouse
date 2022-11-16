@@ -221,7 +221,7 @@
             labels: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG'],
             datasets: [
               {
-                label: "CHN",
+                label: "Grooming",
                 borderColor: gradientStrokeViolet,
                 backgroundColor: gradientStrokeViolet,
                 hoverBackgroundColor: gradientStrokeViolet,
@@ -233,7 +233,7 @@
                 data: [20, 40, 15, 35, 25, 50, 30, 20]
               },
               {
-                label: "USA",
+                label: "Penitipan Hewan",
                 borderColor: gradientStrokeRed,
                 backgroundColor: gradientStrokeRed,
                 hoverBackgroundColor: gradientStrokeRed,
@@ -245,7 +245,7 @@
                 data: [40, 30, 20, 10, 50, 15, 35, 40]
               },
               {
-                label: "UK",
+                label: "Produk terjual",
                 borderColor: gradientStrokeBlue,
                 backgroundColor: gradientStrokeBlue,
                 hoverBackgroundColor: gradientStrokeBlue,
@@ -340,7 +340,7 @@
             labels: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG'],
             datasets: [
               {
-                label: "CHN",
+                label: "Grooming",
                 borderColor: gradientStrokeViolet,
                 backgroundColor: gradientStrokeViolet,
                 hoverBackgroundColor: gradientStrokeViolet,
@@ -352,7 +352,7 @@
                 data: [20, 40, 15, 35, 25, 50, 30, 20]
               },
               {
-                label: "USA",
+                label: "Penitipan Hewan",
                 borderColor: gradientStrokeRed,
                 backgroundColor: gradientStrokeRed,
                 hoverBackgroundColor: gradientStrokeRed,
@@ -364,7 +364,7 @@
                 data: [40, 30, 20, 10, 50, 15, 35, 40]
               },
               {
-                label: "UK",
+                label: "Produk terjual",
                 borderColor: gradientStrokeBlue,
                 backgroundColor: gradientStrokeBlue,
                 hoverBackgroundColor: gradientStrokeBlue,
@@ -477,9 +477,9 @@
     
         // These labels appear in the legend and in the tooltips when hovering different arcs
         labels: [
-          'Search Engines',
-          'Direct Click',
-          'Bookmarks Click',
+          'Grooming ',
+          'Penitipan Hewan ',
+          'Produk ',
         ]
       };
       var trafficChartOptions = {
