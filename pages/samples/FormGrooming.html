@@ -149,6 +149,11 @@
               <div class="form-group">
                 <label for="name">Sedia Pet Cargo (Ya/Tidak)</label>
                 <input type="text" class="form-control" name="sediapetcargo" id="subject" required>
+                if (mysqli_query($conn, $sql)) {
+                  echo "New record created successfully";
+                } else {
+                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                }
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
