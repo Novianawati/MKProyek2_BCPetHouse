@@ -1,7 +1,12 @@
 <?php
-    $koneksi = mysqli_connect("localhost", "root", "dbpetshop");
 
-    if(mysqli_connect_error()) {
-        echo "Koneksi Gagal".mysqli_connect();
+    $host="localhost";
+    $user="root";
+    $password="";
+    $db="dbpetshop";
+
+    $kon = mysqli_connect($host,$user,$password,$db);
+    if (!$kon){
+	    die("Koneksi gagal:".mysqli_connect_error());
     }
 ?>
