@@ -165,7 +165,7 @@
                     <h4 class="card-title">Data Penjualan Produk</h4>
                     </p>
                     <button type="button" class="btn btn-outline-primary btn-icon-text">
-                      <i class="mdi mdi-file-check btn-icon-prepend"></i> Tambah Data </button>
+                      <i href="tambahDataProduk.php" class="mdi mdi-file-check btn-icon-prepend"></i> Tambah Data </button>
                     <table class="table table-bordered">
                       <thead>
                         <tr>
